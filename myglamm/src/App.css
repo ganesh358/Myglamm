@@ -1,0 +1,232 @@
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 14px;
+  cursor: pointer;
+   font-family: sans-serif;
+  font-weight: 400;
+  border: none;
+
+}
+.dropbtn:hover{
+border-color: #feb0a9;
+  padding-bottom: value;
+    border-bottom-style: solid;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+  font-family: din-2014, sans-serif;
+  
+}
+
+
+
+
+
+.Textbag{
+  background-image: "linear-gradient(180deg, white, pink)";
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+/*  Dropdown  Content  (Hidden by Default)  */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  min-height: 380px;
+  min-width: 1200px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-sticky {
+  z-index: 1;
+  position: sticky;
+  top:0px;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: ;} */
+
+/* MakeUp PART */
+.makeup_title{
+  
+  text-decoration: underline;
+  font-size: 48px;
+ line-height: 53px;
+  color: #333333;
+  font-style: normal;
+  font-family: sans-serif;
+
+}
+
+.griditem_name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color:#000003
+}
+
+
+/* single_page_makeup */
+.sidebar{
+ position: absolute;
+ top:250px;
+ width:30%;
+ height: 100vh;
+}
+
+.content_bar{
+  margin-left: 33%;
+  width:50%;
+  height: 440px;
+  /* top:5rem; */
+  position: absolute;
+  overflow: auto;
+  
+  
+}
+
+.content_bar_content{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #373738;
+  font-family: sans-serif;
+}
+.content_bar_content_1{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #909090;
+  font-family: sans-serif;
+}
+.content_bar_content_2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  font-family: sans-serif;
+}
+.content_bar_content_3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  font-family: sans-serif;
+
+}
+
+.content_bar_select{
+  border:0.2px grey solid;
+  margin-left: 15px;
+  color: #373738;
+  font-size: 14px;
+  font-style: normal;
+  font-family: sans-serif;
+  width: 200px;
+  height: 23px;
+}
+
+.content_bar_button{
+  display: flex;
+  gap:15px;
+  background-color: #000003;
+  color: white;
+  font-weight: 600;
+  font-size:16px;
+  line-height: 23px;
+  font-family: sans-serif;
+  padding:15px;
+  margin-bottom: 15px;
+ 
+
+}
+.shade_div>img{
+  border:0.5px black solid;
+  padding:3px
+}
+
+.content_bar_content_4{
+background-color: #f4f4f4;
+}
+
+.navbar_div{
+  margin-top: 450px;
+}
+.makeup_content_div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  grid-auto-rows: max-content;
+}
+.elem_shared_div{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #100f0f;
+  font-family: sans-serif;
+}
+
+      
+
+
+
+
+
+/* Scroll Bar  */
+
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #555; 
+}
+
+

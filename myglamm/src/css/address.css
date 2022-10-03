@@ -1,0 +1,151 @@
+.container__address{
+    padding: 1.5rem;
+    border: 1px solid rgb(233,233,233);
+    margin: 2rem;
+    padding-bottom: 5rem;
+}
+
+.main__heading{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.sub__heading1{
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.sub__heading2{
+    font-size: .8rem;
+    text-align: left;
+}
+
+.contact__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.mobile__country{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    gap: 1rem;
+}
+
+.hr1__line{
+    margin-top: 1rem;
+}
+
+.hr2__line{
+    height: .4rem;
+    margin-top: 3rem;
+    background-color: #F3F4F6;
+}
+
+.address__input{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.gray__background{
+    background-color: #F3F4F6;
+}
+.gray__text{
+    color: gray;
+}
+
+.btn__1{
+    padding: .2rem 1rem;
+    border: 1px solid pink;
+    background-color: rgb(253, 230, 234);
+    color: rgb(248, 124, 145);
+}
+.btn__1__simple{
+    padding: .2rem 1rem;
+    border: 1px solid rgb(122, 122, 122);
+    color: gray;
+}
+
+.address__btn{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.margin__left{
+    margin-left: 1.5rem;
+}
+
+.checkbox__wrapper{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.bottom_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.back__btn{
+    color: rgb(248, 124, 145);
+    font: bold;
+    font-size: 1rem;
+    border: 1px solid rgb(248, 124, 145);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.back__btn:hover{
+    color: white;
+    background-color: rgb(248, 124, 145);
+}
+
+.ship__btn{
+    background-color: rgb(248, 124, 145);
+    color: white;
+    font: bold;
+    font-size: 1rem;
+    border: 1px solid rgb(248, 124, 145);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+.ship__btn__inactive{
+background-color: pink;
+border: 1px solid pink;
+}
+
+
+
+
+.input__holder{
+    height: 50px;
+    border:2px solid rgb(233, 233, 233);
+    padding: 10px;
+    margin-top: 20px ;
+    border-radius: 5px;
+}
+
+.input__form{
+height:30px;
+width:100%;
+color: rgb(27, 27, 27);
+}
+.input__form:focus{
+    outline: none;
+}
+
+.input__text{
+    margin-top: -60px;
+    margin-left: 10px;
+    background-color: white;
+    display: table;
+    padding: 0 5px;
+    color: rgb(122, 122, 122);
+    font-size: .85rem;
+    margin-bottom: 30px;
+}

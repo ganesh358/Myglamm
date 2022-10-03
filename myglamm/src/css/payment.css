@@ -1,0 +1,209 @@
+
+*{
+    text-align: left;
+}
+
+.heading__payment{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.payment__container{
+    padding: 0rem 4rem;
+}
+.payMethods__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+
+.pay__methods{
+    display: grid;
+    grid-template-columns: .5fr 3fr;
+    padding: 1.2rem;
+    border: 1px solid white;
+}
+
+.pay__methods:hover{
+    background-color: #FCF8ED;
+    border: 1px solid black;
+}
+
+.main__heading1{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+/* upi */
+
+.upi__component{
+    padding: 0 2rem;
+}
+
+.upi__amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FCF8ED;
+    align-content: center;
+    padding: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.amount__payble{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.upiError__container{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.upi__error{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background-color: #FDEED7;
+    padding: 1rem;
+    font-size: .75rem;
+}
+
+.upi__button{
+    padding: 1.5rem;
+    background-color: #F7F7F7;
+    margin-top: 2rem;
+}
+.upi__button input{
+    padding: .5rem;
+}
+
+.upi__button input:focus{
+    outline: 0;
+}
+.upi__button button{
+    padding: .5rem;
+    text-align: center;
+    background-color: #565656;
+    color:white
+}
+
+.net__button{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        width: 80%;
+}
+
+.net__button select{
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    color: gray;
+}
+
+.net__button select:focus{
+    outline: none;
+}
+
+.net__button button{
+    padding: 1rem;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(24, 24, 24);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card__container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+    margin-top: 1.2rem;
+}
+
+.card__container input{
+    padding: 1rem;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: #FFFFFF
+}
+
+.card__container input:focus{
+    outline:  none;
+}
+
+.card__container p{
+    padding: 1rem 0;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+.new__card{
+    font-size: .7rem;
+    font-weight: bold;
+    margin-top: .8rem;
+}
+
+.pay__validity{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pay__validity input{
+    width: 7rem;
+}
+
+.pay__validity{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text__right{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.payCard__btn{
+    padding: 1rem 3rem;
+    background-color: #3f3f3f;
+    color: white;
+    margin-top:2rem ;
+    border-radius: 5px;
+}
+
+.logo__wallet{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.img__container{
+    width: 6rem;
+    padding: 1rem;
+    border: 1px solid rgb(228, 228, 228);
+    margin-top: 5rem;
+}
+
+.img__container:hover{
+    border: 1px solid black;
+}
+
+.cod__text{
+    margin-top: 1rem;
+    font-size: .9rem;
+}
+
+.cod__btn{
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
